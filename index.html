@@ -2053,17 +2053,18 @@ html[data-theme="dark"] .cert_logo{filter:invert(1) hue-rotate(180deg) saturate(
 html[data-theme="dark"] .nav_app-logo{filter:brightness(0) invert(1)}
 html[data-theme="dark"] .cta_formula{filter:invert(1) hue-rotate(180deg);opacity:.75}
 
-/* calls to action: light orange, the orange of the highlighted figures in the «en 100» pages (#ffbba1), navy text
-   (contrast 10:1). They are the buttons that are navy in the light theme. Their shadow is a dark neumorphic one
-   (no light glow: the user does not want light shadows on dark) */
+/* main calls to action: the navy buttons of the light theme take the brandbook's dark-background tint of navy,
+   «Celeste claro» #C7CFE0 (brandbook octubre 2026, p. 27: «tintes para fondo oscuro · sobre navy»), with navy text
+   (contrast 10.4:1); hover a step lighter. Their shadow is a dark neumorphic one (no light glow: the user does not
+   want light shadows on dark). (v3, 11-nov; until then light orange #ffbba1) */
 html[data-theme="dark"] .main_button.is-hero-primary,
 html[data-theme="dark"] .actuariaplus-button.is-hero-primary,
 html[data-theme="dark"] .actuariaplus-button.is-nav-app,
-html[data-theme="dark"] .cta_section .cta_content > .secondbutton.is-flat{background-color:#ffbba1!important;background-image:none!important;color:#151f47!important;box-shadow:3px 4px 10px rgba(18,17,22,.45)!important}
+html[data-theme="dark"] .cta_section .cta_content > .secondbutton.is-flat{background-color:#c7cfe0!important;background-image:none!important;color:#151f47!important;box-shadow:3px 4px 10px rgba(18,17,22,.45)!important}
 html[data-theme="dark"] .main_button.is-hero-primary:hover,
 html[data-theme="dark"] .actuariaplus-button.is-hero-primary:hover,
 html[data-theme="dark"] .actuariaplus-button.is-nav-app:hover,
-html[data-theme="dark"] .cta_section .cta_content > .secondbutton.is-flat:hover{background-color:#ffcdb9!important}
+html[data-theme="dark"] .cta_section .cta_content > .secondbutton.is-flat:hover{background-color:#d8dde9!important}
 html[data-theme="dark"] .main_button.is-hero-primary *,
 html[data-theme="dark"] .actuariaplus-button.is-hero-primary *,
 html[data-theme="dark"] .actuariaplus-button.is-nav-app *,
